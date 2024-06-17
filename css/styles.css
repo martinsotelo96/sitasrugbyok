@@ -27,11 +27,13 @@ footer {
 }
 
 footer p{
-    color:#f3f3f3
+    color: #f3f3f3;
     text-align: center;
 
 }
- #iconos i {
+
+
+#iconos i {
     font-size: 26px;
     padding: 0 8px;
     color: #f3f3f3;
