@@ -4,4 +4,38 @@
   padding: 0;
   box-sizing: border-box;
   font-family: "Nunito Sans", sans-serif;
+}
+
+.carousel-inner {
+  max-height: 35rem;
+}
+
+footer {
+  background: rgb(159, 182, 159);
+  min-height: 100px;
+}
+footer footer p {
+  color: #f3f3f3;
+  text-align: center;
+}
+footer #iconos i {
+  font-size: 26px;
+  padding: 0 8px;
+  color: #f3f3f3;
+}
+
+@media (max-width: 768px) {
+  #intro {
+    width: 90% !important;
+  }
+  .servicio-fila {
+    width: 100% !important;
+    text-align: center;
+  }
+}
+@media (max-width: 768px) and (max-widht: 576px) {
+  .icono-wrap {
+    flex-wrap: wrap;
+    justify-content: center !important;
+  }
 }/*# sourceMappingURL=estilo.css.map */
