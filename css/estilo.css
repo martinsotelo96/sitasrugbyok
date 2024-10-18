@@ -11,7 +11,7 @@
 }
 
 footer {
-  background: rgb(159, 182, 159);
+  background: white;
   min-height: 100px;
 }
 footer footer p {
@@ -21,7 +21,7 @@ footer footer p {
 footer #iconos i {
   font-size: 26px;
   padding: 0 8px;
-  color: #f3f3f3;
+  color: rgba(243, 243, 243, 0.9098039216);
 }
 
 @media (max-width: 768px) {
@@ -38,4 +38,24 @@ footer #iconos i {
     flex-wrap: wrap;
     justify-content: center !important;
   }
-}/*# sourceMappingURL=estilo.css.map */
+}
+.tarjetas {
+  padding: 60px;
+  display: flex;
+  gap: 30px;
+}
+.tarjetas .tarjeta {
+  background-color: white;
+  border-radius: 30px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  flex: 1;
+}
+.tarjetas .tarjeta .informacion {
+  padding: 0 20px 20px 20px;
+}
+.tarjetas .tarjeta .tarjeta__imagen {
+  max-width: 10%;
+}
